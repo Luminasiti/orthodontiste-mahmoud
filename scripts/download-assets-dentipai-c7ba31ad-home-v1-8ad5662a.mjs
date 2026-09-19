@@ -1,0 +1,79 @@
+/**
+ * Asset Downloader for dentipai-c7ba31ad / home-v1-8ad5662a
+ * Downloads all required page images and icons into public/sites/dentipai-c7ba31ad/home-v1-8ad5662a/
+ */
+import fs from 'fs';
+import path from 'path';
+import https from 'https';
+import http from 'http';
+
+const TARGET_DIR = path.resolve('public/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images');
+fs.mkdirSync(TARGET_DIR, { recursive: true });
+
+const ASSET_URLS = [
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/673b17930fb0037010c46455_main-logo.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77d854bc296cb08f727_satisfied-client-avatar-1.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77d26059311a03dd6f9_satisfied-client-avatar-2.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77d5666f763dd59dcf4_satisfied-client-avatar-3.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77ed4d96eb89415d625_hero-checkup-image-1.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77f113be4f1db345036_hero-checkup-image-2.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77f096649af8cef5ed2_hero-primary-image.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721f03b5808297a40a2c63a_our-mission-banner.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6739859ab0f7e2eae3be7463_our-highlighted-doctor-avatar.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721fe7da8bcfa1c9a6f6491_our-highlighted-patient-avatar.png",
+  "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/672210563918af052ddeba18_dental-shining.svg",
+  "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67221028ddcacdd88de8774c_dental-implants.svg",
+  "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67220ff70f3cb5ff30f01de2_dental-crown.svg",
+  "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67220f83c157b6d7bd8b4a92_dental-loosen.svg",
+  "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67220f5ab9aaa4a71fed60c6_orthodontics.svg",
+  "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67220f2b50e69fbff7a6deef_dental-surgery.svg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67275262479f6cc0dc97147f_wcu-image-01.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67275262e24754f69d2ee66e_wcu-image-02.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6727526289781f155475e86a_wcu-image-03.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67231c51c47b3843f2e23f8a_consultation-image.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67285bf0abc7c8db8fd8b581_testimonial-avatar-1.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67285bf0c46837a608e0f41e_testimonial-avatar-2.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67285bf03bd396c85d802872_testimonial-avatar-3.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672886d11ffa915bbbc7d47e_faq-image.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/673b1d775c2f184b4ca4269e_faq-inner-image.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6729de22bce0b1362a9b370a_oral-cancer-awareness-month-why-its-important.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6729ddcb4a253862d9d9d45d_dentist-in-usa-services-at-our-dental-care-clinic.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6729dd3a133bcca1859c35f1_11-reasons-why-your-tooth-hurts-when-you-bite-down.jpg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6729927031f07097dd043fb1_cta-highlight-1.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67299270474d3e3e082e9e96_cta-highlight-2.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77d5666f763dd59dcc5_hero-title-highlight.png",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672f026f34ee692170c00b31_checkmark-circle-2.svg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67231a7d778d2a69c3badaf8_appointment-pattern.svg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672886d1da292934f51006ab_faq-icon.svg",
+  "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672897d143ac167d70b2e5d9_cta-pattern.png"
+];
+
+async function download(url) {
+  const dest = path.join(TARGET_DIR, path.basename(new URL(url).pathname));
+  if (fs.existsSync(dest)) return;
+  return new Promise((resolve, reject) => {
+    const file = fs.createWriteStream(dest);
+    const client = url.startsWith('https') ? https : http;
+    client.get(url, (res) => {
+      if (res.statusCode === 301 || res.statusCode === 302) {
+        return download(res.headers.location).then(resolve).catch(reject);
+      }
+      res.pipe(file);
+      file.on('finish', () => file.close(resolve));
+    }).on('error', (err) => {
+      fs.unlink(dest, () => {});
+      reject(err);
+    });
+  });
+}
+
+async function run() {
+  console.log(`Verifying/downloading ${ASSET_URLS.length} assets...`);
+  for (let i = 0; i < ASSET_URLS.length; i += 4) {
+    const chunk = ASSET_URLS.slice(i, i + 4);
+    await Promise.all(chunk.map(url => download(url)));
+  }
+  console.log('All assets verified!');
+}
+
+run();

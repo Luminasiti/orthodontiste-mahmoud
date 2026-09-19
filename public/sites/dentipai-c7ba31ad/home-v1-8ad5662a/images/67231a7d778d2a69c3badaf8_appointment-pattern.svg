@@ -1,0 +1,59 @@
+<svg width="1920" height="648" viewBox="0 0 1920 648" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_95_2790" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="648">
+<rect opacity="0.75" width="1920" height="648" rx="16" fill="#E7EFFE"/>
+</mask>
+<g mask="url(#mask0_95_2790)">
+<g opacity="0.3">
+<mask id="mask1_95_2790" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-245" y="-435" width="1921" height="1766">
+<rect width="1920" height="1689" transform="matrix(-1 0 0 1 1675.71 -434.766)" fill="url(#paint0_radial_95_2790)"/>
+</mask>
+<g mask="url(#mask1_95_2790)">
+<g clip-path="url(#clip0_95_2790)">
+<g clip-path="url(#clip1_95_2790)">
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 1547.71 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 1451.71 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 1355.71 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 1259.71 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 1163.71 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 1067.71 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 971.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 875.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 779.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 683.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 587.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 491.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 395.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 299.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 203.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 107.715 -441.766)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1772" y2="-0.5" transform="matrix(0 1 1 0 11.7148 -441.766)" stroke="#0E63F3"/>
+</g>
+<g clip-path="url(#clip2_95_2790)">
+<line y1="-0.5" x2="1920" y2="-0.5" transform="matrix(-1 0 0 1 1643.71 38.2344)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1920" y2="-0.5" transform="matrix(-1 0 0 1 1643.71 134.234)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1920" y2="-0.5" transform="matrix(-1 0 0 1 1643.71 230.234)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1920" y2="-0.5" transform="matrix(-1 0 0 1 1643.71 326.234)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1920" y2="-0.5" transform="matrix(-1 0 0 1 1643.71 422.234)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1920" y2="-0.5" transform="matrix(-1 0 0 1 1643.71 518.234)" stroke="#0E63F3"/>
+<line y1="-0.5" x2="1920" y2="-0.5" transform="matrix(-1 0 0 1 1643.71 614.234)" stroke="#0E63F3"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_95_2790" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 -0.000224046) rotate(90) scale(1879.43 1115.1)">
+<stop/>
+<stop offset="0.953125" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_95_2790">
+<rect width="1920" height="1762" fill="white" transform="matrix(-1 0 0 1 1643.71 -441.766)"/>
+</clipPath>
+<clipPath id="clip1_95_2790">
+<rect width="1920" height="1772" fill="white" transform="matrix(-1 0 0 1 1643.71 -441.766)"/>
+</clipPath>
+<clipPath id="clip2_95_2790">
+<rect width="1920" height="1824" fill="white" transform="matrix(-1 0 0 1 1643.71 -441.766)"/>
+</clipPath>
+</defs>
+</svg>

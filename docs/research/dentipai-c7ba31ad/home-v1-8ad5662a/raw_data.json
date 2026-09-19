@@ -1,0 +1,782 @@
+{
+  "sections": [
+    {
+      "name": "Header",
+      "tag": "header",
+      "selector": "header.header"
+    },
+    {
+      "name": "hero-section",
+      "tag": "section",
+      "className": "hero-section",
+      "selector": ".hero-section"
+    },
+    {
+      "name": "our-story-section",
+      "tag": "section",
+      "className": "our-story-section section-gap-y-axis",
+      "selector": ".our-story-section.section-gap-y-axis"
+    },
+    {
+      "name": "service-section",
+      "tag": "section",
+      "className": "service-section with-bg section-gap-y-axis",
+      "selector": ".service-section.with-bg.section-gap-y-axis"
+    },
+    {
+      "name": "wcu-section",
+      "tag": "section",
+      "className": "wcu-section section-gap-y-axis",
+      "selector": ".wcu-section.section-gap-y-axis"
+    },
+    {
+      "name": "consultation-section",
+      "tag": "section",
+      "className": "consultation-section",
+      "selector": ".consultation-section"
+    },
+    {
+      "name": "testimonial-section",
+      "tag": "section",
+      "className": "testimonial-section section-gap-top",
+      "selector": ".testimonial-section.section-gap-top"
+    },
+    {
+      "name": "faq-section",
+      "tag": "section",
+      "className": "faq-section section-gap-top",
+      "selector": ".faq-section.section-gap-top"
+    },
+    {
+      "name": "blog-section",
+      "tag": "section",
+      "className": "blog-section section-gap-top",
+      "selector": ".blog-section.section-gap-top"
+    },
+    {
+      "name": "cta-section",
+      "tag": "section",
+      "className": "cta-section section-gap-top",
+      "selector": ".cta-section.section-gap-top"
+    },
+    {
+      "name": "Footer",
+      "tag": "footer",
+      "selector": "footer"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/673b17930fb0037010c46455_main-logo.png",
+      "alt": "Brand Logo",
+      "width": 350,
+      "height": 80,
+      "className": "nav-logo",
+      "parentClasses": "navbar-brand w-nav-brand w--current",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/673b17930fb0037010c46455_main-logo.png",
+      "alt": "Brand Logo",
+      "width": 350,
+      "height": 80,
+      "className": "nav-logo",
+      "parentClasses": "navbar-brand w-nav-brand w--current",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77d854bc296cb08f727_satisfied-client-avatar-1.png",
+      "alt": "Satisfied Client Avatar",
+      "width": 56,
+      "height": 56,
+      "className": "satisfied-client-avatar _1st-child",
+      "parentClasses": "satisfied-client-avatar-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77d26059311a03dd6f9_satisfied-client-avatar-2.png",
+      "alt": "Satisfied Client Avatar",
+      "width": 56,
+      "height": 56,
+      "className": "satisfied-client-avatar _2nd-child negative-space",
+      "parentClasses": "satisfied-client-avatar-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77d5666f763dd59dcf4_satisfied-client-avatar-3.png",
+      "alt": "Satisfied Client Avatar",
+      "width": 56,
+      "height": 56,
+      "className": "satisfied-client-avatar _3rd-child negative-space",
+      "parentClasses": "satisfied-client-avatar-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77ed4d96eb89415d625_hero-checkup-image-1.png",
+      "alt": "Hero Checkup Image",
+      "width": 296,
+      "height": 127,
+      "className": "hero-checkup-image",
+      "parentClasses": "hero-checkup-block _1st-child align-bottom",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77f113be4f1db345036_hero-checkup-image-2.png",
+      "alt": "Hero Checkup Image",
+      "width": 259,
+      "height": 234,
+      "className": "hero-checkup-image",
+      "parentClasses": "hero-checkup-block _2nd-child",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77f096649af8cef5ed2_hero-primary-image.jpg",
+      "alt": "Hero Image",
+      "width": 551,
+      "height": 790,
+      "className": "hero-image",
+      "parentClasses": "hero-image-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721f03b5808297a40a2c63a_our-mission-banner.jpg",
+      "alt": "Our Mission Image",
+      "width": 517,
+      "height": 563,
+      "className": "global-image our-story-image",
+      "parentClasses": "global-image-block top-to-down",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6739859ab0f7e2eae3be7463_our-highlighted-doctor-avatar.png",
+      "alt": "Our Highlighted Doctor Avatar",
+      "width": 84,
+      "height": 84,
+      "className": "global-image",
+      "parentClasses": "global-image-block left-to-right",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721fe7da8bcfa1c9a6f6491_our-highlighted-patient-avatar.png",
+      "alt": "Our Highlighted Patient Avatar",
+      "width": 154,
+      "height": 153,
+      "className": "our-highlighted-patient-avatar",
+      "parentClasses": "global-image-block right-to-left",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/672210563918af052ddeba18_dental-shining.svg",
+      "alt": "Dental Shining",
+      "width": 86,
+      "height": 86,
+      "className": "service-icon with-contrast",
+      "parentClasses": "service-icon-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67221028ddcacdd88de8774c_dental-implants.svg",
+      "alt": "Dental Implants",
+      "width": 86,
+      "height": 86,
+      "className": "service-icon with-contrast",
+      "parentClasses": "service-icon-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67220ff70f3cb5ff30f01de2_dental-crown.svg",
+      "alt": "Dental Crown",
+      "width": 86,
+      "height": 86,
+      "className": "service-icon with-contrast",
+      "parentClasses": "service-icon-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67220f83c157b6d7bd8b4a92_dental-loosen.svg",
+      "alt": "Dental Loosen",
+      "width": 86,
+      "height": 86,
+      "className": "service-icon with-contrast",
+      "parentClasses": "service-icon-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67220f5ab9aaa4a71fed60c6_orthodontics.svg",
+      "alt": "Orthodontics",
+      "width": 86,
+      "height": 86,
+      "className": "service-icon with-contrast",
+      "parentClasses": "service-icon-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/67220f2b50e69fbff7a6deef_dental-surgery.svg",
+      "alt": "Dental Surgery",
+      "width": 0,
+      "height": 0,
+      "className": "service-icon with-contrast",
+      "parentClasses": "service-icon-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67275262479f6cc0dc97147f_wcu-image-01.jpg",
+      "alt": "WCU Image",
+      "width": 0,
+      "height": 0,
+      "className": "global-image wcu-image",
+      "parentClasses": "global-image-block left-to-right",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67275262e24754f69d2ee66e_wcu-image-02.jpg",
+      "alt": "WCU Image",
+      "width": 0,
+      "height": 0,
+      "className": "global-image wcu-image",
+      "parentClasses": "global-image-block right-to-left",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6727526289781f155475e86a_wcu-image-03.jpg",
+      "alt": "WCU Image",
+      "width": 0,
+      "height": 0,
+      "className": "global-image wcu-image",
+      "parentClasses": "global-image-block down-to-top",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67231c51c47b3843f2e23f8a_consultation-image.png",
+      "alt": "Appointment Image",
+      "width": 0,
+      "height": 0,
+      "className": "consultation-image",
+      "parentClasses": "consultation-wrapper",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67285bf0abc7c8db8fd8b581_testimonial-avatar-1.png",
+      "alt": "Testimonial Avatar",
+      "width": 0,
+      "height": 0,
+      "className": "testimonial-avatar",
+      "parentClasses": "testimonial-info-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67285bf0c46837a608e0f41e_testimonial-avatar-2.png",
+      "alt": "Testimonial Avatar",
+      "width": 0,
+      "height": 0,
+      "className": "testimonial-avatar",
+      "parentClasses": "testimonial-info-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67285bf03bd396c85d802872_testimonial-avatar-3.png",
+      "alt": "Testimonial Avatar",
+      "width": 0,
+      "height": 0,
+      "className": "testimonial-avatar",
+      "parentClasses": "testimonial-info-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67285bf0abc7c8db8fd8b581_testimonial-avatar-1.png",
+      "alt": "Testimonial Avatar",
+      "width": 0,
+      "height": 0,
+      "className": "testimonial-avatar",
+      "parentClasses": "testimonial-info-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672886d11ffa915bbbc7d47e_faq-image.jpg",
+      "alt": "FAQ Image",
+      "width": 0,
+      "height": 0,
+      "className": "global-image faq-image",
+      "parentClasses": "global-image-block top-to-down",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/673b1d775c2f184b4ca4269e_faq-inner-image.jpg",
+      "alt": "FAQ Inner Image",
+      "width": 0,
+      "height": 0,
+      "className": "faq-inner-image",
+      "parentClasses": "faq-image-block",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/6729de22bce0b1362a9b370a_oral-cancer-awareness-month-why-its-important.jpg",
+      "alt": "Oral Cancer Awareness Month  Why It’s Important",
+      "width": 0,
+      "height": 0,
+      "className": "blog-image",
+      "parentClasses": "blog-image-link-block w-inline-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/6729ddcb4a253862d9d9d45d_dentist-in-usa-services-at-our-dental-care-clinic.jpg",
+      "alt": "Dentist in USA: Services At Our Dental Care Clinic",
+      "width": 0,
+      "height": 0,
+      "className": "blog-image",
+      "parentClasses": "blog-image-link-block w-inline-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/67220dd88ff79d2082579c43/6729dd3a133bcca1859c35f1_11-reasons-why-your-tooth-hurts-when-you-bite-down.jpg",
+      "alt": "11 Reasons Why Your Tooth Hurts When You Bite Down",
+      "width": 0,
+      "height": 0,
+      "className": "blog-image",
+      "parentClasses": "blog-image-link-block w-inline-block",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6729927031f07097dd043fb1_cta-highlight-1.png",
+      "alt": "CTA Highlight",
+      "width": 0,
+      "height": 0,
+      "className": "our-highlight-image position-top-right",
+      "parentClasses": "cta-wrapper",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67299270474d3e3e082e9e96_cta-highlight-2.png",
+      "alt": "CTA Highlight",
+      "width": 0,
+      "height": 0,
+      "className": "our-highlight-image position-bottom-left",
+      "parentClasses": "cta-wrapper",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/673b17930fb0037010c46455_main-logo.png",
+      "alt": "Footer Logo",
+      "width": 350,
+      "height": 80,
+      "className": "footer-logo",
+      "parentClasses": "footer-logo-link-block w-inline-block w--current",
+      "position": "static",
+      "zIndex": "auto"
+    }
+  ],
+  "backgroundImages": [
+    {
+      "url": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/6721b77d5666f763dd59dcc5_hero-title-highlight.png",
+      "element": "SPAN.hero-title-highlight"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672f026f34ee692170c00b31_checkmark-circle-2.svg",
+      "element": "LI.our-list-item"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672f026f34ee692170c00b31_checkmark-circle-2.svg",
+      "element": "LI.our-list-item"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672f026f34ee692170c00b31_checkmark-circle-2.svg",
+      "element": "LI.our-list-item"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/67231a7d778d2a69c3badaf8_appointment-pattern.svg",
+      "element": "SECTION.consultation-section"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672886d1da292934f51006ab_faq-icon.svg",
+      "element": "SPAN.faq-title-highlight"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/671f49fca67a34c410c2515c/672897d143ac167d70b2e5d9_cta-pattern.png",
+      "element": "DIV.cta-wrapper"
+    }
+  ],
+  "svgs": [
+    {
+      "index": 0,
+      "outerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"8\" viewBox=\"0 0 16 8\" fill=\"none\">\n  <g clip-path=\"url(#clip0_337_91)\">\n    <path d=\"M8 7.27392C7.93442 7.27472 7.86941 7.26178 7.80913 7.23595C7.74885 7.21012 7.69465 7.17195 7.65 7.12392L3.15 2.62392C2.95 2.42392 2.95 2.11392 3.15 1.91392C3.35 1.71392 3.66 1.71392 3.86 1.91392L8.01 6.06392L12.15 1.92392C12.35 1.72392 12.66 1.72392 12.86 1.92392C13.06 2.12392 13.06 2.43392 12.86 2.63392L8.36 7.13392C8.26 7.23392 8.13 7.28392 8.01 7.28392L8 7.27392Z\" fill=\"currentColor\"></path>\n  </g>\n  <defs>\n    <clipPath id=\"clip0_337_91\">\n      <rect width=\"16\" height=\"7\" fill=\"white\" transform=\"translate(0 0.773926)\"></rect>\n    </clipPath>\n  </defs>\n</svg>",
+      "className": null,
+      "parentClasses": "nav-icon w-embed",
+      "width": "16",
+      "height": "8"
+    },
+    {
+      "index": 1,
+      "outerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"8\" viewBox=\"0 0 16 8\" fill=\"none\">\n  <g clip-path=\"url(#clip0_337_91)\">\n    <path d=\"M8 7.27392C7.93442 7.27472 7.86941 7.26178 7.80913 7.23595C7.74885 7.21012 7.69465 7.17195 7.65 7.12392L3.15 2.62392C2.95 2.42392 2.95 2.11392 3.15 1.91392C3.35 1.71392 3.66 1.71392 3.86 1.91392L8.01 6.06392L12.15 1.92392C12.35 1.72392 12.66 1.72392 12.86 1.92392C13.06 2.12392 13.06 2.43392 12.86 2.63392L8.36 7.13392C8.26 7.23392 8.13 7.28392 8.01 7.28392L8 7.27392Z\" fill=\"currentColor\"></path>\n  </g>\n  <defs>\n    <clipPath id=\"clip0_337_91\">\n      <rect width=\"16\" height=\"7\" fill=\"white\" transform=\"translate(0 0.773926)\"></rect>\n    </clipPath>\n  </defs>\n</svg>",
+      "className": null,
+      "parentClasses": "nav-icon w-embed",
+      "width": "16",
+      "height": "8"
+    },
+    {
+      "index": 2,
+      "outerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 46 46\" fill=\"none\">\n  <path d=\"M15.4333 30.5231L30.1418 15.8145M21.2375 15.5854L30.5182 15.4382L30.3709 24.7189\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "hero-arrow w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 3,
+      "outerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 46 46\" fill=\"none\">\n  <path d=\"M15.4333 30.5231L30.1418 15.8145M21.2375 15.5854L30.5182 15.4382L30.3709 24.7189\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "hero-arrow w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 4,
+      "outerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 34 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.5767 22.8911L22.6081 11.8597M15.9299 11.6878L22.8904 11.5774L22.7799 18.538\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "service-arrow w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 5,
+      "outerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 34 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.5767 22.8911L22.6081 11.8597M15.9299 11.6878L22.8904 11.5774L22.7799 18.538\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "service-arrow w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 6,
+      "outerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 34 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.5767 22.8911L22.6081 11.8597M15.9299 11.6878L22.8904 11.5774L22.7799 18.538\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "service-arrow w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 7,
+      "outerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 34 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.5767 22.8911L22.6081 11.8597M15.9299 11.6878L22.8904 11.5774L22.7799 18.538\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "service-arrow w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 8,
+      "outerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 34 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.5767 22.8911L22.6081 11.8597M15.9299 11.6878L22.8904 11.5774L22.7799 18.538\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "service-arrow w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 9,
+      "outerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 34 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.5767 22.8911L22.6081 11.8597M15.9299 11.6878L22.8904 11.5774L22.7799 18.538\" stroke=\"currentColor\" stroke-width=\"1.5\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "service-arrow w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 10,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 11,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 12,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 13,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 14,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 15,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 16,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 17,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 18,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 19,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star empty w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 20,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 21,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 22,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 23,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star empty w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 24,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star empty w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 25,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\" aria-hidden=\"true\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 26,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\" aria-hidden=\"true\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 27,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\" aria-hidden=\"true\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 28,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\" aria-hidden=\"true\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 29,
+      "outerHTML": "<svg width=\"26\" height=\"25\" viewBox=\"0 0 26 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\">\n<path d=\"M25.731 9.94368H16.048L13.0673 0.736938L10.0689 9.94368L0.385986 9.92604L8.217 15.6229L5.21864 24.8297L13.0497 19.1328L20.8807 24.8297L17.9 15.6229L25.731 9.94368Z\" fill=\"currentColor\" aria-hidden=\"true\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "single-star w-embed",
+      "width": "26",
+      "height": "25"
+    },
+    {
+      "index": 30,
+      "outerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 22 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M20.333 10H4.33301\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n  <path d=\"M9.66699 2L1.66699 10L9.66699 18\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "our-slider-arrow-icon w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 31,
+      "outerHTML": "<svg width=\"100%\" height=\"100%\" viewBox=\"0 0 22 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M1.66651 9L19.2568 9\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M12.333 1L20.333 9L12.333 17\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "our-slider-arrow-icon w-embed",
+      "width": "100%",
+      "height": "100%"
+    },
+    {
+      "index": 32,
+      "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17.0046 1.65307H1.85156V1H17.0046V1.65307Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.9986 1.32632L16.9986 17L16.3672 17L16.3672 1.32632L16.9986 1.32632Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.5849 1.8905L1.43182 16.5846L1 16.1081L16.153 1.41406L16.5849 1.8905Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "faq-icon w-embed",
+      "width": "18",
+      "height": "18"
+    },
+    {
+      "index": 33,
+      "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17.0046 1.65307H1.85156V1H17.0046V1.65307Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.9986 1.32632L16.9986 17L16.3672 17L16.3672 1.32632L16.9986 1.32632Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.5849 1.8905L1.43182 16.5846L1 16.1081L16.153 1.41406L16.5849 1.8905Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "faq-icon w-embed",
+      "width": "18",
+      "height": "18"
+    },
+    {
+      "index": 34,
+      "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17.0046 1.65307H1.85156V1H17.0046V1.65307Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.9986 1.32632L16.9986 17L16.3672 17L16.3672 1.32632L16.9986 1.32632Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.5849 1.8905L1.43182 16.5846L1 16.1081L16.153 1.41406L16.5849 1.8905Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "faq-icon w-embed",
+      "width": "18",
+      "height": "18"
+    },
+    {
+      "index": 35,
+      "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17.0046 1.65307H1.85156V1H17.0046V1.65307Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.9986 1.32632L16.9986 17L16.3672 17L16.3672 1.32632L16.9986 1.32632Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.5849 1.8905L1.43182 16.5846L1 16.1081L16.153 1.41406L16.5849 1.8905Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "faq-icon w-embed",
+      "width": "18",
+      "height": "18"
+    },
+    {
+      "index": 36,
+      "outerHTML": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17.0046 1.65307H1.85156V1H17.0046V1.65307Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.9986 1.32632L16.9986 17L16.3672 17L16.3672 1.32632L16.9986 1.32632Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.5849 1.8905L1.43182 16.5846L1 16.1081L16.153 1.41406L16.5849 1.8905Z\" fill=\"#070707\" stroke=\"#070707\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "faq-icon w-embed",
+      "width": "18",
+      "height": "18"
+    },
+    {
+      "index": 37,
+      "outerHTML": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14 0H2C0.897 0 0 0.897 0 2V14C0 15.103 0.897 16 2 16H8V10.5H6V8H8V6C8 5.20435 8.31607 4.44129 8.87868 3.87868C9.44129 3.31607 10.2044 3 11 3H13V5.5H12C11.448 5.5 11 5.448 11 6V8H13.5L12.5 10.5H11V16H14C15.103 16 16 15.103 16 14V2C16 0.897 15.103 0 14 0Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "social-link-icon w-embed",
+      "width": "16",
+      "height": "16"
+    },
+    {
+      "index": 38,
+      "outerHTML": "<svg width=\"20\" height=\"16\" viewBox=\"0 0 20 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.5 1.86044C18.8452 2.30784 18.0764 2.5454 17.2907 2.54315C18.1308 2.03341 18.7597 1.22354 19.0581 0.267437C18.3618 0.873808 17.4843 1.21527 16.5727 1.23462C15.9716 0.600508 15.1871 0.18429 14.3369 0.0484272C13.4867 -0.0874361 12.6167 0.0643832 11.8574 0.481101C11.098 0.897819 10.4904 1.55696 10.1256 2.3596C9.76086 3.16224 9.65864 4.06509 9.8343 4.93265C8.28743 4.84853 6.77502 4.43024 5.39528 3.70493C4.01554 2.97962 2.79932 1.96351 1.82558 0.722581C1.34909 1.6107 1.20958 2.64938 1.43407 3.6374C1.65856 4.62542 2.23108 5.49244 3.0407 6.07051C2.42967 6.07941 1.82487 5.94313 1.27326 5.67226C1.28811 6.58871 1.60093 7.47355 2.16167 8.18523C2.72241 8.89691 3.49867 9.39432 4.36628 9.59787C3.78874 9.75323 3.18466 9.77267 2.59884 9.65477C2.85155 10.4666 3.34391 11.1771 4.00726 11.687C4.67062 12.1969 5.4719 12.4809 6.29942 12.4994C4.55172 13.5915 2.5441 14.1627 0.5 14.1493C2.21195 15.3005 4.20048 15.9398 6.24424 15.996C8.28799 16.0521 10.3068 15.5229 12.0759 14.4673C13.8449 13.4117 15.2949 11.871 16.2644 10.0169C17.2338 8.16279 17.6847 6.06791 17.5669 3.96548C18.2957 3.35152 18.9453 2.64411 19.5 1.86044Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "social-link-icon w-embed",
+      "width": "20",
+      "height": "16"
+    },
+    {
+      "index": 39,
+      "outerHTML": "<svg width=\"22\" height=\"16\" viewBox=\"0 0 22 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M21.45 2.42857C21.175 1.42857 20.4875 0.714286 19.525 0.428572C17.875 2.55448e-07 10.8625 0 10.8625 0C10.8625 0 3.98751 2.55448e-07 2.20001 0.428572C1.23751 0.714286 0.549996 1.42857 0.274996 2.42857C-4.20026e-06 4.28572 0 8 0 8C0 8 4.17978e-06 11.7143 0.412504 13.5714C0.687504 14.5714 1.375 15.2857 2.3375 15.5714C3.9875 16 11 16 11 16C11 16 17.875 16 19.6625 15.5714C20.625 15.2857 21.3125 14.5714 21.5875 13.5714C22 11.7143 22 8 22 8C22 8 22 4.28572 21.45 2.42857ZM8.79999 11.4286V4.57143L14.575 8L8.79999 11.4286Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "social-link-icon w-embed",
+      "width": "22",
+      "height": "16"
+    },
+    {
+      "index": 40,
+      "outerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 11 10\" fill=\"none\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M6.79144 1.08337L10.6081 4.90006C10.8423 5.13427 10.8423 5.514 10.6081 5.74821L6.79144 9.5649C6.55723 9.79911 6.1775 9.79911 5.94329 9.5649C5.70908 9.33069 5.70908 8.95096 5.94329 8.71674L8.73616 5.92387L0.571655 5.92387L0.571655 4.7244H8.73616L5.94329 1.93153C5.70908 1.69731 5.70908 1.31758 5.94329 1.08337C6.1775 0.849162 6.55723 0.849162 6.79144 1.08337Z\" fill=\"currentColor\"></path>\n</svg>",
+      "className": null,
+      "parentClasses": "scroll-to-top-icon w-embed",
+      "width": "100%",
+      "height": "100%"
+    }
+  ],
+  "fonts": [
+    "sans-serif",
+    "Plusjakartasans, sans-serif",
+    "webflow-icons"
+  ],
+  "colors": [
+    "rgb(0, 0, 0)",
+    "rgb(7, 7, 7)",
+    "rgb(255, 255, 255)",
+    "rgb(51, 51, 51)",
+    "rgb(34, 34, 34)",
+    "rgb(253, 253, 253)",
+    "rgb(14, 99, 243) rgb(7, 7, 7) rgb(7, 7, 7)",
+    "rgb(14, 99, 243)",
+    "rgb(207, 224, 253)",
+    "rgba(50, 103, 255, 0.3)",
+    "rgb(231, 239, 254)",
+    "rgb(0, 0, 238)",
+    "rgb(183, 208, 251)",
+    "rgb(7, 7, 7) rgb(7, 7, 7) rgb(207, 224, 253)",
+    "rgb(207, 224, 253) rgb(7, 7, 7) rgb(7, 7, 7)"
+  ]
+}
