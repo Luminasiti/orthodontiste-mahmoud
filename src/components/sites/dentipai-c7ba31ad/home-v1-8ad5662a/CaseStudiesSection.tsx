@@ -133,33 +133,18 @@ export default function CaseStudiesSection({ isFullPage = false }: CaseStudiesSe
                 </div>
 
                 {/* Case Description */}
-                <div className="px-6 sm:px-8 py-2">
-                  <h3 className="text-[24px] sm:text-[28px] font-bold text-[#070707] mb-2 leading-snug group-hover:text-[#0e63f3] transition-colors">
+                <div className="px-6 sm:px-8 py-2 mb-4">
+                  <h3 className="text-[22px] sm:text-[26px] font-bold text-[#070707] mb-2 leading-snug group-hover:text-[#0e63f3] transition-colors">
                     <Link href={`/cas-cliniques/${caseItem.slug}`}>
                       {caseItem.title}
                     </Link>
                   </h3>
 
-                  <p className="text-xs sm:text-sm font-semibold text-gray-500 mb-6 flex flex-wrap items-center gap-2">
+                  <p className="text-xs sm:text-sm font-semibold text-gray-500 flex flex-wrap items-center gap-2">
                     <span>👤 {caseItem.patientProfile}</span>
                     <span>•</span>
                     <span className="text-[#0e63f3] font-bold">{caseItem.technique}</span>
                   </p>
-
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-600 mb-6">
-                    <div className="bg-white p-5 rounded-2xl border border-gray-200/80">
-                      <strong className="text-gray-900 font-bold block mb-1">Diagnostic initial :</strong>
-                      <p className="text-xs leading-relaxed">{caseItem.diagnosis}</p>
-                    </div>
-                    <div className="bg-white p-5 rounded-2xl border border-gray-200/80">
-                      <strong className="text-gray-900 font-bold block mb-1">Solution thérapeutique :</strong>
-                      <p className="text-xs leading-relaxed">{caseItem.solution}</p>
-                    </div>
-                    <div className="bg-white p-5 rounded-2xl border border-gray-200/80">
-                      <strong className="text-[#0e63f3] font-bold block mb-1">Résultat obtenu :</strong>
-                      <p className="text-xs leading-relaxed">{caseItem.result}</p>
-                    </div>
-                  </div>
                 </div>
               </div>
 

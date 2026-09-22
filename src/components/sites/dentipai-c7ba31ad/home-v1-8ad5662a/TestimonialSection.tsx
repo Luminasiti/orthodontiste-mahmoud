@@ -6,6 +6,8 @@ import { StarIcon, SliderArrowLeft, SliderArrowRight } from "../shared/icons";
 import { testimonialsData } from "@/data/clinicData";
 
 export default function TestimonialSection() {
+  return null; // Hidden for now per request
+  // eslint-disable-next-row no-unreachable
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {

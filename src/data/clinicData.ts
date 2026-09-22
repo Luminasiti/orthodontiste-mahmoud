@@ -763,36 +763,48 @@ export const faqsData: FaqItem[] = [
     id: "faq-1",
     question: "Quelle est la différence entre un dentiste omnipraticien et un spécialiste en orthodontie ?",
     answer:
-      "Le Dr Mahmoud Qalalwa est spécialiste qualifié en orthodontie et orthopédie dento-faciale. Après son cursus en médecine dentaire à la Faculté de Médecine Dentaire de Monastir, il a suivi une formation universitaire spécialisée de plusieurs années dédiée exclusivement au diagnostic, à la biomécanique et au redressement des malpositions dentaires et des anomalies faciales.",
+      "Le Dr Mahmoud Qalalwa est spécialiste qualifié en orthodontie et orthopédie dento-faciale. Après l'obtention de son diplôme de docteur en médecine dentaire à la Faculté de Médecine Dentaire de Monastir, il a suivi plusieurs années de formation hospitalo-universitaire spécialisée dédiées exclusivement à l'alignement dentaire, à la biomécanique et à la correction des anomalies des mâchoires.",
   },
   {
     id: "faq-2",
-    question: "Les soins orthodontiques sont-ils pris en charge par la CNAM en Tunisie ?",
+    question: "Les traitements d'orthodontie sont-ils pris en charge par la CNAM en Tunisie ?",
     answer:
-      "Oui, la CNAM prend en charge une partie forfaitaire des traitements d'orthodontie pour les enfants de moins de 16 ans, sous réserve d'un accord préalable (entente préalable) établi au cabinet. Le Dr Qalalwa vous fournit l'ensemble des documents médicaux nécessaires pour faire valoir vos droits.",
+      "Oui, la CNAM accorde une prise en charge forfaitaire pour les soins orthodontiques débutés avant l'âge de 16 ans. Un dossier d'entente préalable comprenant des radiographies et un bilan complet est établi au cabinet par le Dr Qalalwa et soumis à la décision du médecin conseil de la CNAM.",
   },
   {
     id: "faq-3",
     question: "Combien de temps dure un traitement orthodontique en moyenne ?",
     answer:
-      "La durée dépend de la complexité initiale du cas. Les alignements modérés par aligneurs invisibles durent généralement de 6 à 12 mois. Pour les traitements complets par attaches métalliques ou céramiques, la moyenne se situe entre 14 et 24 mois. Un calendrier précis vous est remis après votre bilan initial.",
+      "La durée varie selon la complexité du cas. Un alignement modéré par aligneurs invisibles nécessite généralement de 6 à 12 mois. Pour les traitements complets par bagues métalliques ou céramiques, la durée moyenne oscille entre 14 et 24 mois. Un calendrier précis vous est présenté dès le bilan initial.",
   },
   {
     id: "faq-4",
     question: "Est-ce douloureux de porter un appareil dentaire ou des aligneurs ?",
     answer:
-      "La pose d'un appareil ou la mise en place d'une nouvelle gouttière est totalement indolore. Durant les 48 à 72 heures suivantes, une légère sensibilité à la pression peut être ressentie lorsque vous mordez, signe que les dents commencent à se déplacer. Cette sensation s'estompe très vite et est facilement soulagée par un antalgique léger.",
+      "La pose de l'appareil et la mise en place des aligneurs sont totalement indolores. Une légère sensibilité au niveau des dents peut apparaître durant 48 à 72 heures après les réglages, témoignant du début du mouvement dentaire. Cette gêne passagère s'estompe rapidement et se gère très simplement avec des conseils adaptés.",
   },
   {
     id: "faq-5",
-    question: "Où se situe exactement le cabinet et comment s'y rendre ?",
+    question: "À quel âge effectuer la première consultation orthodontique pour un enfant ?",
     answer:
-      "Le cabinet est situé au 2ème étage de l'Immeuble Educatec (Bureau n°1), à Aïn Zaghouan Nord, 2046 Tunis, exactement en face de l'Hôpital Universitaire Mongi Slim sur l'axe GP9 (Route de La Marsa). Il est facilement accessible depuis La Marsa, Les Berges du Lac, Carthage, L'Aouina et La Soukra, avec un stationnement facile à proximité immédiate.",
+      "Il est vivement conseillé de réaliser un bilan d'interception dès l'âge de 6 à 7 ans. Intervenir tôt permet d'exploiter la croissance osseuse des mâchoires pour corriger un palais trop étroit ou un décalage des mâchoires avant que les anomalies ne s'aggravent.",
   },
   {
     id: "faq-6",
-    question: "Comment prendre rendez-vous pour une première consultation ?",
+    question: "Pourquoi la phase de contention est-elle indispensable en fin de traitement ?",
     answer:
-      "Vous pouvez nous contacter directement par téléphone au 28 361 705 (+216 28 361 705) ou nous écrire sur WhatsApp via le bouton dédié sur le site. Notre équipe vous réservera un accueil personnalisé pour planifier votre consultation bilan dans les meilleurs délais.",
+      "Après le déplacement des dents, l'os et le ligament parodontal ont besoin de temps pour se consolider. La contention (fil linguel collé très discret et gouttière nocturne) est essentielle pour maintenir l'alignement parfait et empêcher tout déplacement récidivant au fil des années.",
+  },
+  {
+    id: "faq-7",
+    question: "Où se situe exactement le cabinet et comment s'y rendre ?",
+    answer:
+      "Le cabinet est situé au 2ème étage de l'Immeuble Educatec (Bureau n°1), Aïn Zaghouan Nord, 2046 Tunis, exactement en face de l'Hôpital Universitaire Mongi Slim (axe GP9 Route de La Marsa). L'accès est direct depuis Les Berges du Lac 2, La Marsa, La Soukra, L'Aouina et Carthage, avec un stationnement facile devant l'immeuble.",
+  },
+  {
+    id: "faq-8",
+    question: "Comment prendre rendez-vous pour une consultation bilan au cabinet ?",
+    answer:
+      "Vous pouvez prendre rendez-vous directement par téléphone au 28 361 705 (+216 28 361 705) ou envoyer un message sur WhatsApp via le bouton dédié sur le site. Notre équipe vous accueillera pour planifier votre consultation bilan dans les plus brefs délais.",
   },
 ];
