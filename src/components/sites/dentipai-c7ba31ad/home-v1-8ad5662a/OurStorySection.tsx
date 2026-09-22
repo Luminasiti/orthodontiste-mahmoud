@@ -13,8 +13,8 @@ export default function OurStorySection() {
           <div className="lg:col-span-6 flex justify-center">
             <div className="relative w-full aspect-[4/5] sm:aspect-[3/4] lg:aspect-[4/5] max-h-[620px] rounded-[32px] overflow-hidden shadow-lg border border-gray-100">
               <Image
-                src="/images/dr-mahmoud-qalalwa-hero.jpg"
-                alt="Cabinet d'orthodontie Dr Mahmoud Qalalwa à Tunis"
+                src="/images/dr-mahmoud-qalalwa-portrait.jpg"
+                alt="Dr Mahmoud Qalalwa Spécialiste en Orthodontie à Tunis"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { clinicInfo } from "@/data/clinicData";
@@ -38,27 +39,22 @@ export default function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-white/95 backdrop-blur-md shadow-sm py-3"
-          : "bg-white py-4 sm:py-5"
+          ? "bg-white/95 backdrop-blur-md shadow-sm py-2.5"
+          : "bg-white py-3.5 sm:py-4"
       }`}
     >
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between">
-          {/* Logo & Doctor Info */}
-          <Link href="/" className="flex items-center gap-3 shrink-0 group">
-            <div className="w-10 h-10 rounded-xl bg-[#0e63f3]/10 flex items-center justify-center text-[#0e63f3] group-hover:bg-[#0e63f3] group-hover:text-white transition-colors">
-              <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
-                <path d="M12 2C7.58 2 4 4.79 4 8.23c0 2.22 1.5 4.16 3.75 5.25.32 1.34.82 2.91 1.48 4.67.43 1.15 1.09 1.85 1.83 1.85.83 0 1.54-.88 2.05-2.22.42-1.11.81-2.4 1.14-3.72C16.94 13.06 19 10.82 19 8.23 19 4.79 15.86 2 12 2zm0 2c3.31 0 6 2.11 6 4.71 0 1.94-1.46 3.65-3.56 4.34l-.4.13-.23.95c-.32 1.33-.7 2.61-1.1 3.67-.32.84-.66 1.2-1.01 1.2-.28 0-.58-.33-.87-1.1-.64-1.73-1.13-3.26-1.44-4.57l-.23-.97-.43-.15C7.94 11.5 6 9.87 6 7.71 6 4.11 8.69 4 12 4z"/>
-              </svg>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-[17px] sm:text-[19px] tracking-tight text-[#070707] group-hover:text-[#0e63f3] transition-colors leading-tight">
-                Dr Mahmoud Qalalwa
-              </span>
-              <span className="text-[12px] sm:text-[13px] text-gray-500 font-medium">
-                Orthodontiste • FMDM Monastir
-              </span>
-            </div>
+          {/* Official Logo */}
+          <Link href="/" className="flex items-center shrink-0 group">
+            <Image
+              src="/images/logo.png"
+              alt="Dr Mahmoud Qalalwa - Orthodontiste Tunis"
+              width={240}
+              height={75}
+              priority
+              className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
+            />
           </Link>
 
           {/* Desktop Navigation */}

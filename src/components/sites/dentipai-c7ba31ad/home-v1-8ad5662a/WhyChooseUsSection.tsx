@@ -16,8 +16,7 @@ const WCU_ITEMS: WcuItem[] = [
     title: "Spécialisation Universitaire à la Faculté de Monastir (FMDM)",
     summary:
       "Le Dr Mahmoud Qalalwa est titulaire d'une formation spécialisée approfondie en orthodontie et orthopédie dento-faciale issue de la Faculté de Médecine Dentaire de Monastir. Cette formation rigoureuse garantit une compréhension intime de la croissance des mâchoires, de l'occlusion et de la physiologie du mouvement dentaire.",
-    image:
-      "/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/67275262479f6cc0dc97147f_wcu-image-01.jpg",
+    image: "/images/why-choose-academic-excellence.jpg",
   },
   {
     id: "technologie-aligneurs",
@@ -25,8 +24,7 @@ const WCU_ITEMS: WcuItem[] = [
     title: "Traitements Esthétiques & Aligneurs Invisibles Sur-Mesure",
     summary:
       "Bénéficiez des technologies orthodontiques les plus modernes : planification 3D, simulation de votre futur sourire et gouttières transparentes quasi-invisibles. Que vous optiez pour des aligneurs ou des bagues céramiques haute discrétion, vos soins sont pensés pour préserver votre confort au quotidien.",
-    image:
-      "/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/67275262e24754f69d2ee66e_wcu-image-02.jpg",
+    image: "/images/why-choose-modern-aligners.jpg",
   },
   {
     id: "emplacement-mongi-slim",
@@ -34,8 +32,7 @@ const WCU_ITEMS: WcuItem[] = [
     title: "Emplacement Privilégié en Face de l'Hôpital Mongi Slim",
     summary:
       "Implanté à Aïn Zaghouan Nord dans l'Immeuble Educatec (2ème étage, Bureau n°1), le cabinet est idéalement situé sur l'axe GP9 reliant Tunis à La Marsa. Un accès fluide et rapide pour les résidents des Berges du Lac 2, de Carthage, de La Soukra et de L'Aouina, avec de nombreuses places de stationnement.",
-    image:
-      "/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/6727526289781f155475e86a_wcu-image-03.jpg",
+    image: "/images/why-choose-clinic-location.jpg",
   },
 ];
 

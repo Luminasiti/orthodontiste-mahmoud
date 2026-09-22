@@ -7,29 +7,30 @@ export default function ConsultationSection() {
     <section className="py-12 sm:py-16">
       <div className="max-w-[1280px] mx-auto px-5">
         <div
-          className="relative rounded-[36px] overflow-hidden bg-[#e7effe] p-8 sm:p-12 lg:p-16 border border-[#cfe0fd]"
+          className="relative rounded-[36px] overflow-hidden bg-[#e7effe] border border-[#cfe0fd]"
           style={{
             backgroundImage: `url('/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/67231a7d778d2a69c3badaf8_appointment-pattern.svg')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
         >
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-            {/* Doctor Image */}
-            <div className="lg:col-span-6 flex justify-center order-2 lg:order-1">
-              <div className="relative w-full max-w-[480px] aspect-[4/3] sm:aspect-[16/11]">
+          <div className="grid grid-cols-1 lg:grid-cols-12 items-end">
+            {/* Doctor Image - Flush to bottom & left */}
+            <div className="lg:col-span-5 xl:col-span-6 flex items-end justify-center lg:justify-start order-2 lg:order-1 self-end w-full">
+              <div className="relative w-full max-w-[560px] lg:max-w-none h-[360px] sm:h-[460px] lg:h-[540px] xl:h-[580px]">
                 <Image
                   src="/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/67231c51c47b3843f2e23f8a_consultation-image.png"
                   alt="Bilan orthodontique Dr Mahmoud Qalalwa"
                   fill
                   loading="eager"
-                  className="object-contain object-bottom"
+                  className="object-contain object-bottom lg:object-left-bottom"
+                  priority
                 />
               </div>
             </div>
 
             {/* Content */}
-            <div className="lg:col-span-6 flex flex-col items-start order-1 lg:order-2">
+            <div className="lg:col-span-7 xl:col-span-6 flex flex-col items-start p-8 sm:p-12 lg:p-12 xl:p-16 order-1 lg:order-2 self-center">
               <span className="text-sm font-bold uppercase tracking-wider text-[#0e63f3] block mb-2">
                 Premier Rendez-vous & Diagnostic
               </span>

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { clinicInfo } from "@/data/clinicData";
 import { ScrollToTopArrow } from "../shared/icons";
@@ -17,19 +18,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-16 border-b border-gray-800">
           {/* Brand & Doctor Credentials Column */}
           <div className="lg:col-span-4 flex flex-col items-start">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-[#0e63f3] text-white flex items-center justify-center font-bold text-lg">
-                🦷
-              </div>
-              <div>
-                <span className="font-bold text-xl text-white block">
-                  {clinicInfo.doctorName}
-                </span>
-                <span className="text-xs text-[#0e63f3] font-semibold">
-                  Spécialiste Orthodontie • FMDM Monastir
-                </span>
-              </div>
-            </div>
+            <Link href="/" className="mb-5 block group">
+              <Image
+                src="/images/logo-white.png"
+                alt="Dr Mahmoud Qalalwa - Orthodontiste Tunis"
+                width={240}
+                height={75}
+                className="h-11 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
+              />
+            </Link>
 
             <p className="text-sm text-gray-400 leading-[1.7] mb-6 max-w-[340px]">
               Cabinet spécialisé en orthodontie et orthopédie dento-faciale. Traitements esthétiques et fonctionnels par aligneurs invisibles et attaches multi-attaches.
@@ -181,7 +178,21 @@ export default function Footer() {
 
         {/* Bottom Bar & Scroll to top */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} Dr Mahmoud Qalalwa — Tous droits réservés. Ordre des Médecins Dentistes de Tunisie.</p>
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+            <p>© {new Date().getFullYear()} Dr Mahmoud Qalalwa — Tous droits réservés. Ordre des Médecins Dentistes de Tunisie.</p>
+            <span className="hidden sm:inline text-gray-700">|</span>
+            <p>
+              Website realized by{" "}
+              <a
+                href="https://www.luminasiti.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white font-medium underline underline-offset-2 transition-colors"
+              >
+                Luminasiti
+              </a>
+            </p>
+          </div>
 
           <button
             type="button"
