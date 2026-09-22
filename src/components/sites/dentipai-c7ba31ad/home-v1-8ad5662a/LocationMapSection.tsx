@@ -23,20 +23,29 @@ export default function LocationMapSection() {
         {/* Map & Coordinates Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
           {/* Map Column */}
-          <div className="lg:col-span-7 bg-white rounded-[32px] overflow-hidden border border-gray-200/80 shadow-md min-h-[380px] flex flex-col">
-            <div className="relative w-full flex-1 min-h-[360px]">
+          <div className="lg:col-span-7 bg-white rounded-[32px] overflow-hidden border border-gray-200/80 shadow-md min-h-[380px] flex flex-col group">
+            <a
+              href={clinicInfo.googleMapsDirectionsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative w-full flex-1 min-h-[360px] block cursor-pointer"
+              title="Cliquer pour ouvrir le cabinet du Dr Mahmoud Qalalwa sur Google Maps"
+            >
               <iframe
                 title="Plan d'accès Cabinet Dr Mahmoud Qalalwa Mongi Slim"
                 src={clinicInfo.googleMapsEmbedUrl}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="w-full h-full min-h-[380px]"
+                className="w-full h-full min-h-[380px] pointer-events-none"
               />
-            </div>
+              <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-xs text-[#070707] hover:text-[#0e63f3] text-xs font-bold px-3.5 py-2 rounded-xl shadow-md border border-gray-200/70 flex items-center gap-1.5 transition-transform group-hover:scale-105">
+                <span>📍 Ouvrir l'adresse Google Maps</span>
+                <span className="text-[#0e63f3]">↗</span>
+              </div>
+            </a>
             <div className="p-4 bg-white border-t border-gray-100 flex items-center justify-between flex-wrap gap-3">
               <span className="text-xs font-semibold text-gray-600">
                 📍 Repère : En face Hôpital Mongi Slim (Aïn Zaghouan Nord)

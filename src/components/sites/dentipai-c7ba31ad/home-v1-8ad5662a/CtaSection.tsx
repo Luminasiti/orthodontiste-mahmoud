@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { clinicInfo } from "@/data/clinicData";
 
 export default function CtaSection() {
@@ -7,44 +6,23 @@ export default function CtaSection() {
     <section className="py-12 sm:py-16">
       <div className="max-w-[1280px] mx-auto px-5">
         <div
-          className="relative bg-[#070707] rounded-[36px] overflow-hidden px-6 py-16 sm:px-12 sm:py-20 lg:py-24 text-center shadow-2xl"
+          className="relative bg-[#e7effe] rounded-[36px] overflow-hidden px-6 py-16 sm:px-12 sm:py-20 lg:py-24 text-center border border-blue-200/70 shadow-xl"
           style={{
             backgroundImage: `url('/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/672897d143ac167d70b2e5d9_cta-pattern.png')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
+            backgroundColor: "#e7effe",
           }}
         >
-          {/* Decorative Sparkle 1 (Top Right) */}
-          <div className="absolute top-6 right-6 sm:top-10 sm:right-12 w-16 sm:w-20 aspect-square pointer-events-none opacity-80">
-            <Image
-              src="/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/6729927031f07097dd043fb1_cta-highlight-1.png"
-              alt="Étoile brillance"
-              fill
-              loading="eager"
-              className="object-contain"
-            />
-          </div>
-
-          {/* Decorative Sparkle 2 (Bottom Left) */}
-          <div className="absolute bottom-6 left-6 sm:bottom-10 sm:left-12 w-16 sm:w-20 aspect-square pointer-events-none opacity-80">
-            <Image
-              src="/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/67299270474d3e3e082e9e96_cta-highlight-2.png"
-              alt="Étoile brillance"
-              fill
-              loading="eager"
-              className="object-contain"
-            />
-          </div>
-
           <div className="relative z-10 max-w-[820px] mx-auto flex flex-col items-center">
-            <span className="text-xs sm:text-sm font-bold uppercase tracking-widest text-[#0e63f3] bg-white/10 px-4 py-1.5 rounded-full mb-4">
+            <span className="text-xs sm:text-sm font-bold uppercase tracking-widest text-[#0e63f3] bg-white px-4 py-1.5 rounded-full mb-4 shadow-xs border border-blue-200/60">
               Aïn Zaghouan Nord • Tunis
             </span>
-            <h2 className="text-[32px] sm:text-[44px] lg:text-[50px] font-bold text-white leading-[1.15] tracking-tight mb-5">
+            <h2 className="text-[32px] sm:text-[44px] lg:text-[50px] font-bold text-[#070707] leading-[1.15] tracking-tight mb-5">
               Prêt à Révéler la Beauté et la Santé de Votre Sourire ?
             </h2>
-            <p className="text-[16px] sm:text-[18px] text-[#cccccc] leading-[1.65] max-w-[640px] mb-8 font-normal">
-              Prenez contact avec le <strong>Dr Mahmoud Qalalwa</strong> pour un bilan orthodontique complet.
+            <p className="text-[16px] sm:text-[18px] text-[#374151] leading-[1.65] max-w-[640px] mb-8 font-normal">
+              Prenez contact avec le <strong className="text-[#070707] font-semibold">Dr Mahmoud Qalalwa</strong> pour un bilan orthodontique complet.
               Notre équipe vous accompagne avec écoute et bienveillance au sein de notre cabinet en face de l'Hôpital Mongi Slim.
             </p>
 
@@ -64,7 +42,7 @@ export default function CtaSection() {
 
               <a
                 href={`tel:${clinicInfo.phoneRaw}`}
-                className="default-button bg-[#0e63f3] hover:bg-white hover:text-[#070707] text-white font-semibold flex items-center gap-2 transition-all duration-300"
+                className="default-button bg-[#0e63f3] hover:bg-[#070707] text-white font-semibold flex items-center gap-2 transition-all duration-300 shadow-md"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>

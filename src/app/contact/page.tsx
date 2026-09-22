@@ -120,9 +120,20 @@ export default function ContactPage() {
 
               {/* Address Card */}
               <div className="bg-white p-6 rounded-3xl border border-gray-200/80 shadow-xs">
-                <div className="flex items-center gap-3 mb-3">
-                  <span className="text-2xl">📍</span>
-                  <h3 className="font-bold text-gray-900 text-base">Adresse du Cabinet</h3>
+                <div className="flex items-center justify-between gap-3 mb-3">
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl">📍</span>
+                    <h3 className="font-bold text-gray-900 text-base">Adresse du Cabinet</h3>
+                  </div>
+                  <a
+                    href={clinicInfo.googleMapsDirectionsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs font-bold text-[#0e63f3] hover:underline flex items-center gap-1"
+                  >
+                    <span>Google Maps</span>
+                    <span>↗</span>
+                  </a>
                 </div>
                 <p className="text-sm font-bold text-gray-800">
                   {clinicInfo.building}, {clinicInfo.floor}
@@ -130,9 +141,18 @@ export default function ContactPage() {
                 <p className="text-xs font-semibold text-[#0e63f3] mt-1">
                   {clinicInfo.landmark}
                 </p>
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-gray-500 mt-1 mb-4">
                   {clinicInfo.neighborhood}, {clinicInfo.postalCode} {clinicInfo.city} (Grand Tunis)
                 </p>
+                <a
+                  href={clinicInfo.googleMapsDirectionsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-[#e7effe] text-[#0e63f3] text-xs font-bold hover:bg-[#0e63f3] hover:text-white transition-colors"
+                >
+                  <span>📍 Ouvrir l'adresse exacte sur Google Maps</span>
+                  <span>↗</span>
+                </a>
               </div>
 
               {/* Working Hours */}
