@@ -71,7 +71,7 @@ export default function TraitementsPage() {
             >
               {/* Image Side */}
               <div className={`lg:col-span-5 ${idx % 2 === 1 ? "lg:order-2" : "lg:order-1"}`}>
-                <div className="relative aspect-[4/3] rounded-[32px] overflow-hidden shadow-xl border border-gray-100 bg-[#e7effe]">
+                <div className="relative aspect-square rounded-[32px] overflow-hidden shadow-xl border border-gray-100 bg-[#e7effe]">
                   {treatment.image && (
                     <Image
                       src={treatment.image}

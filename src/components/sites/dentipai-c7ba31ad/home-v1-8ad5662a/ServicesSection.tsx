@@ -38,7 +38,7 @@ export default function ServicesSection() {
                 {treatment.image && (
                   <Link
                     href={`/traitements#${treatment.id}`}
-                    className="relative w-full aspect-[16/10] rounded-2xl overflow-hidden mb-6 bg-gray-100 shadow-2xs block"
+                    className="relative w-full aspect-square rounded-2xl overflow-hidden mb-6 bg-gray-100 shadow-2xs block"
                   >
                     <Image
                       src={treatment.image}
