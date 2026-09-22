@@ -97,9 +97,6 @@ export default function CaseStudiesSection({ isFullPage = false }: CaseStudiesSe
                       <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#0e63f3] text-white shadow-xs">
                         {caseItem.highlightBadge}
                       </span>
-                      <span className="text-xs font-semibold text-gray-600 bg-white px-3 py-1.5 rounded-full border border-gray-200">
-                        🎓 {caseItem.institution?.split("—")[0].trim()}
-                      </span>
                     </div>
                     <span className="text-xs font-semibold text-gray-500">
                       ⏱ {caseItem.duration}
@@ -158,7 +155,7 @@ export default function CaseStudiesSection({ isFullPage = false }: CaseStudiesSe
               {/* Action Link to Full Case Study Page */}
               <div className="px-6 sm:px-8 py-5 border-t border-gray-200/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-white">
                 <div className="text-xs text-gray-600">
-                  <strong>Praticien :</strong> {caseItem.practitioner} • {caseItem.institution}
+                  <strong>Praticien :</strong> {caseItem.practitioner}
                 </div>
                 <Link
                   href={`/cas-cliniques/${caseItem.slug}`}

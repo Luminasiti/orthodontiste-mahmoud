@@ -20,7 +20,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://orthodontiste-mahmoud.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Dr Mahmoud Qalalwa | Spécialiste en Orthodontie & Orthopédie Dento-Faciale Tunis",
   description:
     "Cabinet d'orthodontie du Dr Mahmoud Qalalwa à Aïn Zaghouan Nord, Tunis (en face Hôpital Mongi Slim). Orthodontie invisible (aligneurs), bagues métalliques et céramiques, orthopédie dento-faciale. Diplômé Faculté de Médecine Dentaire de Monastir. Tél : 28 361 705.",
@@ -41,6 +44,20 @@ export const metadata: Metadata = {
   authors: [{ name: clinicInfo.doctorName }],
   creator: clinicInfo.doctorName,
   publisher: clinicInfo.doctorName,
+  alternates: {
+    canonical: "./",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   formatDetection: {
     telephone: true,
     address: true,
@@ -54,9 +71,25 @@ export const metadata: Metadata = {
     title: "Dr Mahmoud Qalalwa | Orthodontiste à Tunis - Aïn Zaghouan Nord",
     description:
       "Spécialiste en Orthodontie et Orthopédie Dento-Faciale. Aligneurs invisibles, bagues métalliques et céramiques. En face de l'Hôpital Mongi Slim, Tunis.",
+    url: siteUrl,
+    siteName: "Cabinet Dr Mahmoud Qalalwa",
     locale: "fr_TN",
     type: "website",
-    siteName: "Cabinet Dr Mahmoud Qalalwa",
+    images: [
+      {
+        url: "/images/dr-mahmoud-qalalwa-portrait.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Dr Mahmoud Qalalwa - Spécialiste en Orthodontie Tunis",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dr Mahmoud Qalalwa | Orthodontiste à Tunis",
+    description:
+      "Cabinet d'orthodontie à Aïn Zaghouan Nord en face de l'Hôpital Mongi Slim. Aligneurs et bagues.",
+    images: ["/images/dr-mahmoud-qalalwa-portrait.jpg"],
   },
 };
 

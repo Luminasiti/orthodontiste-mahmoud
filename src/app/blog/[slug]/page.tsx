@@ -39,6 +39,15 @@ export async function generateMetadata({
       title: post.title,
       description: post.summary,
       type: "article",
+      authors: ["Dr Mahmoud Qalalwa"],
+      images: [
+        {
+          url: post.image,
+          width: 1200,
+          height: 675,
+          alt: post.title,
+        },
+      ],
     },
   };
 }

@@ -33,14 +33,27 @@ export async function generateMetadata({
 
   return {
     title: `${item.title} | Dr Mahmoud Qalalwa Orthodontiste Tunis`,
-    description: `${item.subtitle || item.diagnosis} Traité par le Dr Mahmoud Qalalwa, Clinique de Médecine Dentaire de Monastir.`,
+    description: `${item.subtitle || item.diagnosis} Traité par le Dr Mahmoud Qalalwa, Spécialiste en Orthodontie à Tunis (Aïn Zaghouan Nord).`,
     keywords: [
-      "cas clinique orthodontie",
-      "classe II squelettique traitement",
-      "orthodontiste monastir",
-      "orthodontie chirurgie tunisie",
-      "dr mahmoud qalalwa cas clinique",
+      "cas clinique orthodontie tunis",
+      item.categoryLabel,
+      "avant apres orthodontie",
+      "dr mahmoud qalalwa",
+      "orthodontiste ain zaghouan",
     ],
+    openGraph: {
+      title: `${item.title} | Dr Mahmoud Qalalwa`,
+      description: item.subtitle || item.diagnosis,
+      type: "article",
+      images: [
+        {
+          url: item.afterImage || item.beforeImage,
+          width: 800,
+          height: 600,
+          alt: `Résultat - ${item.title}`,
+        },
+      ],
+    },
   };
 }
 

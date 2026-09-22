@@ -1,5 +1,5 @@
-import HomePage from "@/app/page";
+import { redirect } from "next/navigation";
 
-export default function HomeV1Page() {
-  return <HomePage />;
+export default function HomeV1Redirect() {
+  redirect("/");
 }
