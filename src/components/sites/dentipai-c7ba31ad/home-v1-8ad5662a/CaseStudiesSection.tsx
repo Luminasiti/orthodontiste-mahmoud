@@ -21,8 +21,8 @@ export default function CaseStudiesSection({ isFullPage = false }: CaseStudiesSe
           if (selectedFilter === "encombrement") return item.category === "encombrement";
           if (selectedFilter === "ectopie") return item.id.includes("canine-ectopique");
           if (selectedFilter === "diasteme") return item.category === "diasteme";
+          if (selectedFilter === "classe-3") return item.id.includes("laterognathie") || item.id.includes("cas-9");
           if (selectedFilter === "minivis") return item.id.includes("minivis");
-          if (selectedFilter === "bagues") return item.category === "bagues";
           return true;
         });
 
@@ -60,9 +60,10 @@ export default function CaseStudiesSection({ isFullPage = false }: CaseStudiesSe
           {[
             { id: "all", label: `Tous les Cas (${caseStudiesData.length})` },
             { id: "chirurgie", label: "Chirurgie Orthognathique (Cas 1)" },
-            { id: "encombrement", label: "Encombrement & DDM (Cas 2, 4)" },
+            { id: "encombrement", label: "Encombrement & Extractions (Cas 2, 4, 7)" },
             { id: "ectopie", label: "Canine Ectopique (Cas 3)" },
-            { id: "diasteme", label: "Diastèmes & ELN (Cas 5)" },
+            { id: "diasteme", label: "Diastèmes & Pré-Prothétique (Cas 5, 8)" },
+            { id: "classe-3", label: "Classe III & Latérognathie (Cas 9)" },
             { id: "minivis", label: "Distalisation sur Minivis (Cas 6)" },
           ].map((tab) => (
             <button

@@ -903,6 +903,291 @@ export const caseStudiesData: CaseStudyItem[] = [
       },
     ],
   },
+  {
+    id: "cas-7-classe-i-extraction-incisive-31",
+    slug: "classe-i-encombrement-extraction-incisive-31-quadhelix",
+    title: "Cas Clinique N°7 : Classe I avec Extraction d'Incisive Inférieure (31) & Quadhélix",
+    subtitle:
+      "Traitement d'un encombrement antérieur avec arcade en lyre par expansion maxillaire au Quadhélix et avulsion atypique d'une incisive mandibulaire",
+    category: "encombrement",
+    categoryLabel: "Extraction Incisive 31 & Quadhélix",
+    patientProfile: "Patiente de 18 ans — Iftikhar Klai",
+    patientAge: "18 ans",
+    patientName: "Iftikhar Klai",
+    consultationMotive: "Malposition prononcée et chevauchement des dents antérieures",
+    duration: "Traitement complet (Expansion maxillaire au Quadhélix, avulsion de la 31 et coordination)",
+    technique:
+      "Appareillage multi-attaches en technique de Roth de 6 à 6 + Quadhélix maxillaire + Extraction de l'incisive 31 + Stripping + Contention collée",
+    diagnosis:
+      "Classe I squelettique, normodivergence faciale, endoalvéolie maxillaire avec arcade en lyre, inversé d'articulé sur la 14, encombrement antérieur sévère avec lingo-version des 32 et 42, rotations multiples et profil convexe avec angle naso-labial fermé.",
+    diagnosticSquelettique:
+      "Classe I squelettique (SNA 80°, SNB 78°, ANB 2°), normodivergence faciale (FMA 27°), endoalvéolie.",
+    diagnosticDentoAlveolaire:
+      "Classe I molaire et canine, overjet de 0 à 2 mm, overbite de 0,5 à 2 mm, inversé d'articulé au niveau de la 14, arcade maxillaire étroite en lyre avec rotations MP des 11, 21, 14, 24, 23 et MV des 12, 13, arcade mandibulaire en U avec rotation DL des 33, 43 et lingo-version des 32, 42, coïncidence des milieux incisifs.",
+    diagnosticCutane:
+      "Profil convexe, angle naso-labial fermé, sillon labio-mentonnier en S allongé, égalité des étages, plan sagittal médian droit, lèvres charnues.",
+    diagnosticFonctions:
+      "Déglutition dysfonctionnelle, respiration nasale, phonation normale, parafonctions RAS.",
+    solution:
+      "Thérapeutique d'expansion maxillaire par Quadhélix pour corriger l'endoalvéolie et l'arcade en lyre, combinée à l'extraction stratégique de l'incisive inférieure 31 pour résoudre l'encombrement antérieur sévère sans extraire de prémolaires. Appareillage multi-attaches de 6 à 6, nivellement progressif (.014 NiTi à .018*.025 acier), stripping au niveau du secteur antéro-supérieur pour harmoniser les dimensions dentaires (indice de Bolton), fermeture des espaces à la mandibule par chaînette, coordination des arcades sur 2 arcs .018*.025 acier et contention collée.",
+    result:
+      "Élargissement harmonieux du sourire, correction complète de l'inversé d'articulé sur la 14, alignement idéal des arcades dentaires, occlusion stable en Classe I et résultat esthétique magnifique.",
+    beforeImage: "/cas-cliniques/cas-7/before_face_smile.jpg",
+    afterImage: "/cas-cliniques/cas-7/after_face_smile.jpg",
+    highlightBadge: "Extraction Incisive 31 & Quadhélix",
+    institution: "Clinique de Médecine Dentaire de Monastir — Service d'Orthopédie Dento-Faciale",
+    practitioner: "Dr Mahmoud Qalalwa (Résident)",
+    supervisors: [
+      "Pr. Adel Ben Amor",
+      "Pr. Samir Tobji",
+      "Pr. Ines Dallel",
+      "AHU. Wiem Ben Amor",
+    ],
+    images: {
+      beforeFaceRepos: "/cas-cliniques/cas-7/before_face_repos.jpg",
+      beforeFaceSmile: "/cas-cliniques/cas-7/before_face_smile.jpg",
+      beforeFaceProfile: "/cas-cliniques/cas-7/before_face_profile.jpg",
+      afterFaceRepos: "/cas-cliniques/cas-7/after_face_repos.jpg",
+      afterFaceSmile: "/cas-cliniques/cas-7/after_face_smile.jpg",
+      afterFaceProfile: "/cas-cliniques/cas-7/after_face_profile.jpg",
+      smileComparison: "/cas-cliniques/cas-7/before_after_smile_comparison.jpg",
+      faceComparison: "/cas-cliniques/cas-7/before_after_face_comparison.jpg",
+      intraoralComparison: "/cas-cliniques/cas-7/before_after_intraoral_comparison.jpg",
+      beforeIntraoral: "/cas-cliniques/cas-7/before_intraoral.jpg",
+      afterIntraoral: "/cas-cliniques/cas-7/after_intraoral.jpg",
+      aestheticSmile: "/cas-cliniques/cas-7/after_aesthetic_3_4.jpg",
+      initialRadios: "/cas-cliniques/cas-7/page_12.jpg",
+      initialCephalo: "/cas-cliniques/cas-7/page_13.jpg",
+      levelingPhoto: "/cas-cliniques/cas-7/page_21.jpg",
+      postSurgeryPhoto: "/cas-cliniques/cas-7/page_23.jpg",
+      finalRadios: "/cas-cliniques/cas-7/page_28.jpg",
+      finalCephalo: "/cas-cliniques/cas-7/page_29.jpg",
+      superpositions: "/cas-cliniques/cas-7/page_30.jpg",
+      allSlides: Array.from({ length: 33 }, (_, i) => `/cas-cliniques/cas-7/page_${i + 1}.jpg`),
+    },
+    cephalometry: [
+      { parameter: "SNA", mean: "82° ± 2°", initial: "80°", final: "81°" },
+      { parameter: "SNB", mean: "80° ± 2°", initial: "78°", final: "78°" },
+      { parameter: "ANB", mean: "2° ± 2°", initial: "2°", final: "3°" },
+      { parameter: "FMIA", mean: "68° ± 3°", initial: "53°", final: "55°" },
+      { parameter: "IMPA", mean: "87° ± 3°", initial: "100°", final: "97°" },
+      { parameter: "FMA", mean: "25° ± 3°", initial: "27°", final: "28°" },
+      { parameter: "I / i", mean: "135°", initial: "120°", final: "120°" },
+      { parameter: "I / F", mean: "107°", initial: "112°", final: "117°" },
+    ],
+    treatmentSteps: [
+      {
+        phase: "Phase 1 : Expansion Maxillaire au Quadhélix",
+        maxillary: "Pose d'un appareil Quadhélix pour corriger l'endoalvéolie et l'arcade en lyre",
+        mandibular: "Bilan photographique, radiologique et planification de l'avulsion de la 31",
+      },
+      {
+        phase: "Phase 2 : Extraction de la 31 & Nivellement Initial",
+        maxillary: "Appareillage 6 à 6 sur arcs .014 NiTi, .018 NiTi, .018 Acier, 17*25 NiTi",
+        mandibular: "Extraction de l'incisive inférieure 31, appareillage 6 à 6 et nivellement progressif",
+      },
+      {
+        phase: "Phase 3 : Stripping Antérieur & Fermeture des Espaces",
+        maxillary: "Stripping des dents antéro-supérieures pour harmoniser le ratio de Bolton",
+        mandibular: "Fermeture des espaces résiduels par chaînettes élastiques continues de 6 à 6",
+      },
+      {
+        phase: "Phase 4 : Coordination des Arcades & Contention",
+        maxillary: "2 arcs coordonnés .018*.025 acier, plicatures de finitions pour l'expression du torque",
+        mandibular: "Stabilisation occlusale en Classe I molaire et canine, pose de contention collée",
+      },
+    ],
+  },
+  {
+    id: "cas-8-classe-i-diastemes-laterales-riziformes",
+    slug: "classe-i-diastemes-laterales-riziformes-protheses-conjointes",
+    title: "Cas Clinique N°8 : Diastèmes & Incisives Latérales Riziformes (12/22) avec Prothèses Conjointes",
+    subtitle:
+      "Approche pluridisciplinaire d'orthodontie pré-prothétique : aménagement et répartition des espaces pour couronnes esthétiques sur latérales riziformes",
+    category: "diasteme",
+    categoryLabel: "Diastèmes & Pré-Prothétique",
+    patientProfile: "Patiente de 19 ans — Teissir Laataoui",
+    patientAge: "19 ans",
+    patientName: "Teissir Laataoui",
+    consultationMotive: "Diastèmes antérieurs inesthétiques et incisives latérales de très petite taille (riziformes)",
+    duration: "Traitement combiné ortho-prothétique (Rééducation ELN, répartition précise des espaces et prothèses conjointes)",
+    technique:
+      "Traitement multi-attaches sans extraction + Enveloppe Linguale Nocturne (ELN) + Mécanique de Classe II + Courbe de Spee accentuée maxillaire & reverse Spee mandibulaire + Prothèses conjointes 12/22 + Contention",
+    diagnosis:
+      "Classe I squelettique, normodivergence faciale, biproalvéolie avec diastèmes inter-incisifs majeurs, incisives latérales 12 et 22 riziformes (microdontie), supraclusion avec overbite de 3 à 4 mm, déviation du milieu inférieur de 2 mm à gauche et déglutition dysfonctionnelle.",
+    diagnosticSquelettique:
+      "Classe I squelettique (SNA 85°, SNB 82°, ANB 3°), normodivergence faciale (FMA 20°).",
+    diagnosticDentoAlveolaire:
+      "Classe I d'angle, overjet de 3 à 4 mm, proalvéolie supérieure, overbite de 3 à 4 mm, diastèmes disséminés entre les incisives supérieures, microdontie des 12 et 22 (latérales riziformes), déviation du MII inférieur de 2 mm vers la gauche, rotation ML des 32 et 42.",
+    diagnosticCutane:
+      "Profil harmonieux convexe, angle naso-labial normal, sillon labio-mentonnier en S accentué, égalité des étages, plan sagittal médian droit.",
+    diagnosticFonctions:
+      "Déglutition dysfonctionnelle, respiration nasale, phonation normale, parafonctions RAS.",
+    solution:
+      "Protocole pré-prothétique sans extraction débutant par 6 mois de rééducation par Enveloppe Linguale Nocturne (ELN). Appareillage multi-attaches (6 à 6 maxillaire, 7 à 7 mandibulaire), nivellement progressif (.014 NiTi à .018*.025 acier), mécanique de Classe II avec chaînette de torquing, aménagement et calibration millimétrique des espaces mésio-distaux pour les incisives 12 et 22. Nivellement de la supraclusion par courbe de Spee accentuée maxillaire et reverse Spee mandibulaire. Réalisation de prothèses conjointes céramiques sur 12/22 et pose de contention collée.",
+    result:
+      "Harmonisation du guide antérieur, normalisation de l'overbite et de l'overjet, réhabilitation esthétique spectaculaire des latérales 12/22, intégration prothétique naturelle et sourire radieux.",
+    beforeImage: "/cas-cliniques/cas-8/before_face_smile.jpg",
+    afterImage: "/cas-cliniques/cas-8/after_face_smile.jpg",
+    highlightBadge: "Pré-Prothétique & Latérales Riziformes",
+    institution: "Clinique de Médecine Dentaire de Monastir — Service d'Orthopédie Dento-Faciale",
+    practitioner: "Dr Mahmoud Qalalwa (Résident)",
+    supervisors: [
+      "Pr. Adel Ben Amor",
+      "Pr. Samir Tobji",
+      "Pr. Ines Dallel",
+      "AHU. Wiem Ben Amor",
+    ],
+    images: {
+      beforeFaceRepos: "/cas-cliniques/cas-8/before_face_repos.jpg",
+      beforeFaceSmile: "/cas-cliniques/cas-8/before_face_smile.jpg",
+      beforeFaceProfile: "/cas-cliniques/cas-8/before_face_profile.jpg",
+      afterFaceRepos: "/cas-cliniques/cas-8/after_face_repos.jpg",
+      afterFaceSmile: "/cas-cliniques/cas-8/after_face_smile.jpg",
+      afterFaceProfile: "/cas-cliniques/cas-8/after_face_profile.jpg",
+      smileComparison: "/cas-cliniques/cas-8/before_after_smile_comparison.jpg",
+      faceComparison: "/cas-cliniques/cas-8/before_after_face_comparison.jpg",
+      intraoralComparison: "/cas-cliniques/cas-8/before_after_intraoral_comparison.jpg",
+      beforeIntraoral: "/cas-cliniques/cas-8/before_intraoral.jpg",
+      afterIntraoral: "/cas-cliniques/cas-8/after_intraoral.jpg",
+      aestheticSmile: "/cas-cliniques/cas-8/after_aesthetic_3_4.jpg",
+      initialRadios: "/cas-cliniques/cas-8/page_12.jpg",
+      initialCephalo: "/cas-cliniques/cas-8/page_13.jpg",
+      levelingPhoto: "/cas-cliniques/cas-8/page_21.jpg",
+      postSurgeryPhoto: "/cas-cliniques/cas-8/page_23.jpg",
+      finalRadios: "/cas-cliniques/cas-8/page_30.jpg",
+      finalCephalo: "/cas-cliniques/cas-8/page_31.jpg",
+      superpositions: "/cas-cliniques/cas-8/page_32.jpg",
+      allSlides: Array.from({ length: 33 }, (_, i) => `/cas-cliniques/cas-8/page_${i + 1}.jpg`),
+    },
+    cephalometry: [
+      { parameter: "SNA", mean: "82° ± 2°", initial: "85°", final: "84°" },
+      { parameter: "SNB", mean: "80° ± 2°", initial: "82°", final: "81°" },
+      { parameter: "ANB", mean: "2° ± 2°", initial: "3°", final: "3°" },
+      { parameter: "FMIA", mean: "68° ± 3°", initial: "56°", final: "59°" },
+      { parameter: "IMPA", mean: "87° ± 3°", initial: "104°", final: "97°" },
+      { parameter: "FMA", mean: "25° ± 3°", initial: "20°", final: "21°" },
+      { parameter: "I / i", mean: "135°", initial: "119°", final: "125°" },
+      { parameter: "I / F", mean: "107°", initial: "123°", final: "116°" },
+    ],
+    treatmentSteps: [
+      {
+        phase: "Phase 1 : Rééducation des Fonctions par ELN",
+        maxillary: "Port de l'Enveloppe Linguale Nocturne (ELN) pendant 6 mois pour normaliser la déglutition",
+        mandibular: "Suppression de la pression linguale anormale sur le secteur antérieur",
+      },
+      {
+        phase: "Phase 2 : Nivellement & Mécanique de Classe II",
+        maxillary: "Appareillage 6 à 6 sur arcs .014 NiTi à 17*25 NiTi, chaînette de torquing",
+        mandibular: "Appareillage 7 à 7 et nivellement progressif pour synchroniser l'alignement",
+      },
+      {
+        phase: "Phase 3 : Répartition des Espaces & Nivellement de Spee",
+        maxillary: "Aménagement des espaces pour 12/22, courbe de Spee accentuée pour corriger la supraclusion",
+        mandibular: "Reverse Spee mandibulaire pour aplanir la courbe occlusale inférieure",
+      },
+      {
+        phase: "Phase 4 : Réhabilitation Prothétique 12/22 & Contention",
+        maxillary: "Réalisation des prothèses conjointes céramiques sur les latérales 12 et 22",
+        mandibular: "Pose de contention linguale collée et équilibrage occlusal minutieux",
+      },
+    ],
+  },
+  {
+    id: "cas-9-classe-iii-laterognathie-compensation",
+    slug: "classe-iii-squelettique-laterognathie-douleurs-atm-compensation",
+    title: "Cas Clinique N°9 : Classe III Squelettique avec Latérognathie, Douleurs ATM & Articulé Inversé",
+    subtitle:
+      "Compensation orthodontique d'une asymétrie mandibulaire sévère sans chirurgie, avec levée de l'articulé croisé et suppression des douleurs articulaires",
+    category: "bagues",
+    categoryLabel: "Classe III & Asymétrie ATM",
+    patientProfile: "Patiente de 15 ans — Azza Chemli",
+    patientAge: "15 ans",
+    patientName: "Azza Chemli",
+    consultationMotive: "Mandibule avancée, asymétrie faciale, douleurs et blocages des articulations temporo-mandibulaires (ATM)",
+    duration: "Traitement complet de compensation orthodontique (Levée de l'inversé, mécanique asymétrique et stabilisation articulaire)",
+    technique:
+      "Appareillage multi-attaches de 6 à 6 en technique de Roth sans extraction + Cales de surélévation + Omégas en compression + Mécanique élastique asymétrique de Classe III + Contention collée",
+    diagnosis:
+      "Classe III squelettique (ANB -1°), normodivergence faciale, asymétrie mandibulaire avec latérognathie droite (branche mandibulaire droite plus courte de 2 mm et déformation condylienne), articulé inversé antérieur sur 11/12/13 avec overjet négatif (-2 à 2 mm), déviation du milieu incisif inférieur de 3 mm à droite, bruits et douleurs des ATM.",
+    diagnosticSquelettique:
+      "Classe III squelettique (SNA 82°, SNB 83°, ANB -1°), latérognathie avec asymétrie transversale de 2 mm et inclinaison du plan d'occlusion.",
+    diagnosticDentoAlveolaire:
+      "Classe III d'angle, overjet irrégulier de -2 à 2 mm, inversé d'articulé antérieur sur 11/12/13, overbite de 1 à 3 mm, déviation du MII inférieur de 3 mm vers la droite, palatoversion de 11, 12, 13, rotation DL de 33 et 43.",
+    diagnosticCutane:
+      "Profil légèrement convexe, angle naso-labial normal, sillon labio-mentonnier en S allongé, légère prochéilie de la lèvre inférieure, étage inférieur augmenté, plan sagittal médian dévié vers la droite.",
+    diagnosticFonctions:
+      "Déglutition dysfonctionnelle, respiration nasale, phonation normale, parafonction : succion d'un objet.",
+    solution:
+      "Face au refus de la patiente de subir une génioplastie chirurgicale, mise en place d'une compensation orthodontique biomécanique complète sans extraction. Pose de cales de désocclusion pour déverrouiller l'articulé croisé, appareillage 6 à 6, nivellement progressif avec confection de 2 boucles omégas en compression sur l'arc maxillaire pour proverser les incisives supérieures. Mécanique élastique asymétrique (Classe III à gauche, intercuspidation à droite) associée à une chaînette mandibulaire pour recentrer les milieux. Finition sur arcs .018*.025 acier et contention collée.",
+    result:
+      "Disparition intégrale des douleurs et des blocages de l'ATM, levée complète de l'articulé inversé, centrage rigoureux des milieux inter-incisifs, relation de Classe I bilatérale stable et symétrie du sourire restaurée.",
+    beforeImage: "/cas-cliniques/cas-9/before_face_smile.jpg",
+    afterImage: "/cas-cliniques/cas-9/after_face_smile.jpg",
+    highlightBadge: "Compensation Classe III & ATM",
+    institution: "Clinique de Médecine Dentaire de Monastir — Service d'Orthopédie Dento-Faciale",
+    practitioner: "Dr Mahmoud Qalalwa (Résident)",
+    supervisors: [
+      "Pr. Adel Ben Amor",
+      "Pr. Samir Tobji",
+      "Pr. Ines Dallel",
+      "AHU. Wiem Ben Amor",
+    ],
+    images: {
+      beforeFaceRepos: "/cas-cliniques/cas-9/before_face_repos.jpg",
+      beforeFaceSmile: "/cas-cliniques/cas-9/before_face_smile.jpg",
+      beforeFaceProfile: "/cas-cliniques/cas-9/before_face_profile.jpg",
+      afterFaceRepos: "/cas-cliniques/cas-9/after_face_repos.jpg",
+      afterFaceSmile: "/cas-cliniques/cas-9/after_face_smile.jpg",
+      afterFaceProfile: "/cas-cliniques/cas-9/after_face_profile.jpg",
+      smileComparison: "/cas-cliniques/cas-9/before_after_smile_comparison.jpg",
+      faceComparison: "/cas-cliniques/cas-9/before_after_face_comparison.jpg",
+      intraoralComparison: "/cas-cliniques/cas-9/before_after_intraoral_comparison.jpg",
+      beforeIntraoral: "/cas-cliniques/cas-9/before_intraoral.jpg",
+      afterIntraoral: "/cas-cliniques/cas-9/after_intraoral.jpg",
+      aestheticSmile: "/cas-cliniques/cas-9/after_aesthetic_3_4.jpg",
+      initialRadios: "/cas-cliniques/cas-9/page_12.jpg",
+      initialCephalo: "/cas-cliniques/cas-9/page_13.jpg",
+      levelingPhoto: "/cas-cliniques/cas-9/page_22.jpg",
+      postSurgeryPhoto: "/cas-cliniques/cas-9/page_24.jpg",
+      finalRadios: "/cas-cliniques/cas-9/page_30.jpg",
+      finalCephalo: "/cas-cliniques/cas-9/page_31.jpg",
+      superpositions: "/cas-cliniques/cas-9/page_32.jpg",
+      allSlides: Array.from({ length: 35 }, (_, i) => `/cas-cliniques/cas-9/page_${i + 1}.jpg`),
+    },
+    cephalometry: [
+      { parameter: "SNA", mean: "82° ± 2°", initial: "82°", final: "82,5°" },
+      { parameter: "SNB", mean: "80° ± 2°", initial: "83°", final: "83°" },
+      { parameter: "ANB", mean: "2° ± 2°", initial: "-1°", final: "-0,5°" },
+      { parameter: "FMIA", mean: "68° ± 3°", initial: "69°", final: "76°" },
+      { parameter: "IMPA", mean: "87° ± 3°", initial: "87°", final: "85°" },
+      { parameter: "FMA", mean: "25° ± 3°", initial: "24°", final: "25°" },
+      { parameter: "I / i", mean: "135°", initial: "134°", final: "127°" },
+      { parameter: "I / F", mean: "107°", initial: "117°", final: "125°" },
+    ],
+    treatmentSteps: [
+      {
+        phase: "Phase 1 : Désocclusion & Nivellement Initial",
+        maxillary: "Pose de cales de surélévation pour déverrouiller l'inversé 11/12/13, appareillage 6 à 6",
+        mandibular: "Appareillage 6 à 6 sur arcs .014 NiTi à .018 Acier, arrêt de la parafonction",
+      },
+      {
+        phase: "Phase 2 : Proversion Incisive par Boucles Omégas",
+        maxillary: "Confection de 2 boucles omégas en compression sur arc acier pour proverser les incisives supérieures",
+        mandibular: "Nivellement sur arcs .017*.025 et .018*.025 acier pour coordonner la forme d'arcade",
+      },
+      {
+        phase: "Phase 3 : Mécanique Asymétrique de Classe III",
+        maxillary: "Traction élastique asymétrique (Classe III gauche, intercuspidation droite) pour compenser la latérognathie",
+        mandibular: "Chaînette inférieure pour recentrer le milieu incisif dévié de 3 mm vers la droite",
+      },
+      {
+        phase: "Phase 4 : Résolution ATM, Finition & Contention",
+        maxillary: "Arcs coordonnés .018*.025 acier, disparition complète des douleurs articulaires ATM",
+        mandibular: "Stabilisation occlusale en Classe I et pose d'une attelle de contention collée linguale",
+      },
+    ],
+  },
 ];
 
 export const blogPostsData: BlogPost[] = [
