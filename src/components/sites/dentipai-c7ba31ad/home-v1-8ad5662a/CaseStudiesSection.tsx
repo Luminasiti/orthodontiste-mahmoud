@@ -19,6 +19,7 @@ export default function CaseStudiesSection({ isFullPage = false }: CaseStudiesSe
       : caseStudiesData.filter((item) => {
           if (selectedFilter === "chirurgie") return item.id.includes("ortho-chirurgical");
           if (selectedFilter === "encombrement") return item.category === "encombrement";
+          if (selectedFilter === "autoligaturant") return item.id.includes("autoligaturant");
           if (selectedFilter === "ectopie") return item.id.includes("canine-ectopique");
           if (selectedFilter === "diasteme") return item.category === "diasteme";
           if (selectedFilter === "classe-3") return item.id.includes("laterognathie") || item.id.includes("cas-9");
@@ -61,6 +62,7 @@ export default function CaseStudiesSection({ isFullPage = false }: CaseStudiesSe
             { id: "all", label: `Tous les Cas (${caseStudiesData.length})` },
             { id: "chirurgie", label: "Chirurgie Orthognathique (Cas 1)" },
             { id: "encombrement", label: "Encombrement & Extractions (Cas 2, 4, 7)" },
+            { id: "autoligaturant", label: "Autoligaturant & Stripping (Cas 10)" },
             { id: "ectopie", label: "Canine Ectopique (Cas 3)" },
             { id: "diasteme", label: "Diastèmes & Pré-Prothétique (Cas 5, 8)" },
             { id: "classe-3", label: "Classe III & Latérognathie (Cas 9)" },

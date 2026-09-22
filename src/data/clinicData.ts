@@ -1188,6 +1188,101 @@ export const caseStudiesData: CaseStudyItem[] = [
       },
     ],
   },
+  {
+    id: "cas-10-classe-i-ddm-autoligaturant-stripping",
+    slug: "classe-i-ddm-encombrement-autoligaturant-stripping-sans-extraction",
+    title: "Cas Clinique N°10 : Classe I DDM avec Encombrement & Système Autoligaturant sans Extraction",
+    subtitle:
+      "Traitement orthodontique multi-attaches autoligaturant (7 à 7) avec stripping des prémolaires inférieures et reconstitution composite 12/22",
+    category: "bagues",
+    categoryLabel: "Bagues Autoligaturantes & Stripping",
+    patientProfile: "Patient de 16 ans — Youssef Moujahed",
+    patientAge: "16 ans",
+    patientName: "Youssef Moujahed",
+    consultationMotive: "Malposition et encombrement des dents inférieures, gêne au sourire",
+    duration: "Traitement complet sans extraction par boîtiers autoligaturants (Expansion, nivellement, stripping et coordination d'arcade)",
+    technique:
+      "Traitement orthodontique multi-attaches en technique de Roth de 7 à 7 par système autoligaturant + Stripping des prémolaires inférieures + Reconstitution esthétique composite 12/22 + Contention collée",
+    diagnosis:
+      "Classe I molaire et canine d'Angle avec dysharmonie dento-maxillaire (DDM), encombrement mandibulaire avec rotations incisives, proalvéolie supérieure, overjet irrégulier de 0 à 3 mm, overbite de 3 à 4 mm, déviation du milieu incisif inférieur de 3 mm vers la droite, déglutition dysfonctionnelle, microdontie relative des incisives latérales 12/22.",
+    diagnosticSquelettique:
+      "Classe I squelettique (SNA 84°, SNB 82°, ANB 2°), normodivergence faciale (FMA 20°).",
+    diagnosticDentoAlveolaire:
+      "Classe I molaire et canine d'angle, overjet irrégulier de 0 à 3 mm, overbite de 3 à 4 mm, proalvéolie supérieure (I/F 121°), proalvéolie inférieure (IMPA 100°), déviation du milieu incisif inférieur de 3 mm à droite, arcades ovalaires avec rotation mésio-vestibulaire de 12 et rotation des incisives mandibulaires.",
+    diagnosticCutane:
+      "Profil harmonieux légèrement convexe, angle naso-labial normal, sillon labio-mentonnier en S allongé, normogénie et normochéilie, égalité des étages, lèvres charnues, plan sagittal médian droit.",
+    diagnosticFonctions:
+      "Déglutition dysfonctionnelle (poussée linguale), respiration nasale physiologique, phonation normale, aucune parafonction décelée.",
+    solution:
+      "Traitement non-extractionnel privilégié grâce à la mise en place d'un système multi-attaches autoligaturant passif de 7 à 7 en technique de Roth. Nivellement et expansion douce du maxillaire (.014 NiTi à 17*25 NiTi puis acier). Réduction interproximale de l'émail (stripping amélaire) sur les prémolaires inférieures pour résoudre l'encombrement sans compromettre le profil cutané ni accentuer la proalvéolie. Élastiques intermaxillaires de Classe II et chaînette pour corriger la malocclusion et recentrer rigoureusement les milieux inter-incisifs. Finition sur arcs coordonnés .019*.025 acier, réhabilitation esthétique par résine composite sur les latérales 12 et 22 à taille réduite, et contention.",
+    result:
+      "Alignement complet et harmonieux des arcades dentaires, correction intégrale de l'encombrement mandibulaire sans extractions, parfait centrage des milieux inter-incisifs, normalisation de l'overjet et de l'overbite en Classe I canine et molaire stricte, restauration de la morphologie idéale de 12 et 22, et sourire esthétique éclatant.",
+    beforeImage: "/cas-cliniques/cas-10/before_face_smile.jpg",
+    afterImage: "/cas-cliniques/cas-10/after_face_smile.jpg",
+    highlightBadge: "Système Autoligaturant & Stripping",
+    institution: "Clinique de Médecine Dentaire de Monastir — Service d'Orthopédie Dento-Faciale",
+    practitioner: "Dr Mahmoud Qalalwa (Résident)",
+    supervisors: [
+      "Pr. Adel Ben Amor",
+      "Pr. Samir Tobji",
+      "Pr. Ines Dallel",
+      "AHU. Wiem Ben Amor",
+    ],
+    images: {
+      beforeFaceRepos: "/cas-cliniques/cas-10/before_face_repos.jpg",
+      beforeFaceSmile: "/cas-cliniques/cas-10/before_face_smile.jpg",
+      beforeFaceProfile: "/cas-cliniques/cas-10/before_face_profile.jpg",
+      afterFaceRepos: "/cas-cliniques/cas-10/after_face_repos.jpg",
+      afterFaceSmile: "/cas-cliniques/cas-10/after_face_smile.jpg",
+      afterFaceProfile: "/cas-cliniques/cas-10/after_face_profile.jpg",
+      smileComparison: "/cas-cliniques/cas-10/before_after_smile_comparison.jpg",
+      faceComparison: "/cas-cliniques/cas-10/before_after_face_comparison.jpg",
+      intraoralComparison: "/cas-cliniques/cas-10/before_after_intraoral_comparison.jpg",
+      beforeIntraoral: "/cas-cliniques/cas-10/before_intraoral.jpg",
+      afterIntraoral: "/cas-cliniques/cas-10/after_intraoral.jpg",
+      aestheticSmile: "/cas-cliniques/cas-10/after_aesthetic_3_4.jpg",
+      initialRadios: "/cas-cliniques/cas-10/page_12.jpg",
+      initialCephalo: "/cas-cliniques/cas-10/page_13.jpg",
+      levelingPhoto: "/cas-cliniques/cas-10/page_21.jpg",
+      postSurgeryPhoto: "/cas-cliniques/cas-10/page_23.jpg",
+      finalRadios: "/cas-cliniques/cas-10/page_29.jpg",
+      finalCephalo: "/cas-cliniques/cas-10/page_30.jpg",
+      superpositions: "/cas-cliniques/cas-10/page_31.jpg",
+      allSlides: Array.from({ length: 33 }, (_, i) => `/cas-cliniques/cas-10/page_${i + 1}.jpg`),
+    },
+    cephalometry: [
+      { parameter: "SNA", mean: "82° ± 2°", initial: "84°", final: "84°" },
+      { parameter: "SNB", mean: "80° ± 2°", initial: "82°", final: "82°" },
+      { parameter: "ANB", mean: "2° ± 2°", initial: "2°", final: "2°" },
+      { parameter: "FMIA", mean: "68° ± 3°", initial: "60°", final: "58°" },
+      { parameter: "IMPA", mean: "87° ± 3°", initial: "100°", final: "98°" },
+      { parameter: "FMA", mean: "25° ± 3°", initial: "20°", final: "20°" },
+      { parameter: "I / i", mean: "135°", initial: "121°", final: "123°" },
+      { parameter: "I / F", mean: "107°", initial: "121°", final: "120°" },
+    ],
+    treatmentSteps: [
+      {
+        phase: "Phase 1 : Appareillage Autoligaturant & Nivellement Maxillaire",
+        maxillary: "Pose de l'appareillage autoligaturant 7 à 7, nivellement progressif sur arcs .014 NiTi, .018 NiTi, .018 Acier et 17*25 NiTi pour expansion de l'arcade",
+        mandibular: "Attente d'une expansion maxillaire adéquate avant la mise en charge de l'arcade inférieure",
+      },
+      {
+        phase: "Phase 2 : Nivellement Mandibulaire & Stripping Amélaire",
+        maxillary: "Progression sur arcs .017*.025 et .018*.025 acier, ouverture des espaces pour 12 et 22",
+        mandibular: "Pose de l'appareillage 7 à 7, nivellement et réalisation d'un stripping interproximal mesuré sur les prémolaires inférieures pour libérer l'espace",
+      },
+      {
+        phase: "Phase 3 : Correction de la Malocclusion & Élastiques Cl II",
+        maxillary: "Port d'élastiques de Classe II combinés à une chaînette pour synchroniser les rapports occlusaux et éliminer l'overbite excessif",
+        mandibular: "Recentrage rigoureux du milieu incisif inférieur dévié de 3 mm vers la droite",
+      },
+      {
+        phase: "Phase 4 : Arcs Coordonnés, Reconstitution 12/22 & Contention",
+        maxillary: "Coordination des arcades sur arcs .019*.025 acier avec plicatures de finition, réhabilitation esthétique des latérales 12/22 en résine composite",
+        mandibular: "Stabilisation de l'alignement mandibulaire et pose d'une attelle de contention collée linguale",
+      },
+    ],
+  },
 ];
 
 export const blogPostsData: BlogPost[] = [
