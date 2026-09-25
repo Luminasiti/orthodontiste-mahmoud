@@ -47,7 +47,7 @@ export default function ServicesSection() {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-xs px-3 py-1 rounded-full text-[11px] font-bold text-[#0e63f3] shadow-xs">
-                      ⏱ {treatment.duration.split(" ")[0]} {treatment.duration.split(" ")[1]}
+                      ⏱ {treatment.duration.replace(/ de phase.*| selon.*| en moyenne.*/i, "")}
                     </div>
                   </Link>
                 )}

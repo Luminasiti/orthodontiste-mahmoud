@@ -192,7 +192,7 @@ export const treatmentsData: TreatmentDetail[] = [
     title: "Orthopédie Dento-Faciale Enfant & Adolescent",
     subtitle: "Traitements interceptifs pour guider harmonieusement la croissance des mâchoires",
     summary:
-      "Dès l'âge de 6 à 9 ans, l'orthopédie dento-faciale permet d'intercepter les décalages osseux des mâchoires avant la fin de la croissance squelettique.",
+      "Dès l'âge de 6 à 13 ans pour les filles, 14 ans pour les garçons, l'orthopédie dento-faciale permet d'intercepter les décalages osseux des mâchoires avant la fin de la croissance squelettique.",
     fullDescription: [
       "Spécialiste qualifié en orthopédie dento-faciale issu de la Faculté de Médecine Dentaire de Monastir, le Dr Mahmoud Qalalwa prend en charge les enfants en bas âge afin de corriger les anomalies du développement des mâchoires (mâchoire trop étroite, menton trop en arrière ou en avant, respiration buccale).",
       "Intervenir tôt permet souvent d'éviter des chirurgies orthognathiques lourdes ou des extractions dentaires à l'âge adulte, tout en facilitant une respiration nasale saine et une mastication équilibrée.",

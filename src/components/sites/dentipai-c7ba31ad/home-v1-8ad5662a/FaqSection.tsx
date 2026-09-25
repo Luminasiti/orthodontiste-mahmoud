@@ -20,7 +20,7 @@ export default function FaqSection() {
           <div className="lg:col-span-5 relative flex justify-center">
             <div className="relative w-full aspect-[4/5] sm:aspect-[3/4] lg:aspect-[4/5] max-h-[580px] rounded-[32px] overflow-hidden shadow-md">
               <Image
-                src="/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/672886d11ffa915bbbc7d47e_faq-image.jpg"
+                src="/images/faq-main-consultation.jpg"
                 alt="Cabinet d'orthodontie questions fréquentes"
                 fill
                 loading="eager"
@@ -32,8 +32,8 @@ export default function FaqSection() {
             {/* Overlapping Floating Inner Image */}
             <div className="absolute -bottom-6 -left-4 sm:-bottom-8 sm:-left-8 w-44 sm:w-56 aspect-square rounded-[24px] overflow-hidden border-4 border-white shadow-xl">
               <Image
-                src="/sites/dentipai-c7ba31ad/home-v1-8ad5662a/images/673b1d775c2f184b4ca4269e_faq-inner-image.jpg"
-                alt="Aligneurs et bagues Tunis"
+                src="/images/faq-inner-aligners.jpg"
+                alt="Aligneurs invisibles sur-mesure"
                 fill
                 loading="eager"
                 className="object-cover"
