@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { caseStudiesData, blogPostsData } from "@/data/clinicData";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://orthodontiste-mahmoud.vercel.app";
   const now = new Date();
